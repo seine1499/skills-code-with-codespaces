@@ -11,7 +11,7 @@
   // デフォルトコマンドの上書きを無効化
   "overrideCommand": false
 
-  ,
+  
  // コンテナ作成時にインストールする拡張機能と開くファイルの設定
  "customizations": {
      "vscode": {
@@ -25,5 +25,9 @@
          ]
      }
  }
+
+  
+ "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
+
 
 }
