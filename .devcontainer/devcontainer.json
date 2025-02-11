@@ -1,0 +1,13 @@
+{
+  // この開発環境の名前
+  "name": "Codespace for Skills!",
+  
+  // 使用するベースイメージ（VS Codeの公式イメージ）
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+  // コンテナ内で使用するユーザー
+  "remoteUser": "codespace",
+
+  // デフォルトコマンドの上書きを無効化
+  "overrideCommand": false
+}
