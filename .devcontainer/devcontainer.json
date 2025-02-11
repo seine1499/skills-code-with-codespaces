@@ -10,4 +10,20 @@
 
   // デフォルトコマンドの上書きを無効化
   "overrideCommand": false
+
+  ,
+ // コンテナ作成時にインストールする拡張機能と開くファイルの設定
+ "customizations": {
+     "vscode": {
+         "extensions": [
+             "GitHub.copilot"
+         ]
+     },
+     "codespaces": {
+         "openFiles": [
+             "codespace.md"
+         ]
+     }
+ }
+
 }
